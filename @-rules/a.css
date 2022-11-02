@@ -1,0 +1,11 @@
+.import{
+	color: green;
+}
+@font-face{
+
+src('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&display=swap')
+}
+.rules{
+	color: red;
+	font-family: Fira Sans, sans-serif;
+}

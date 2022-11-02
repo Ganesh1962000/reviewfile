@@ -1,0 +1,36 @@
+.white{
+	color: yellow;
+	color: green !important;
+	color: blue ;
+}
+.rules{
+	color: red;
+	font-family: Fira Sans, sans-serif;
+}
+
+.key{
+  font-size: 1.5rem;
+  width: 110px;
+  height: 100px;
+  background: red;
+  position: relative;
+  animation: mynazi 5s 3;
+}
+@keyframes mynazi{
+	0%{
+	left: 0px;
+	background: red;
+	}
+  25%{
+	left: 200px;
+  	
+    }
+  75%{
+	left: 300px;
+	
+	}
+  100%{
+	left: 700px;
+	
+	}
+}
